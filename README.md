@@ -44,9 +44,8 @@ vfd.close()
 ```
 ## Configuration
 You can use a configuration file (e.g., config.ini) to specify parameters such as the serial port and status of the VFD. Here’s an example of what the configuration file could look like:
-```bash
 ini
-Copier le code
+```bash
 [Settings]
 Port = /dev/ttyUSB0
 Status_VFD = True
